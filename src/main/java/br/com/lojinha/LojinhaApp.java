@@ -15,7 +15,7 @@ public class LojinhaApp {
     public static void main(String[] args) {
         Produto meuProduto = new Produto("Nestle", Tamanho.GRANDE);
 
-        meuProduto.setNome("Play Station 4");
+        meuProduto.setNome("XBOX");
         meuProduto.setValor(30);
 
         List<ItemIncluso> itensInclusos = new ArrayList<>();
