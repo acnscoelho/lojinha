@@ -5,9 +5,6 @@ import br.com.lojinha.pojo.ItemIncluso;
 import br.com.lojinha.pojo.Produto;
 import br.com.lojinha.pojo.ProdutoInternacional;
 import br.com.lojinha.pojo.ProdutoNacional;
-
-
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,14 +32,6 @@ public class LojinhaApp {
         System.out.println(meuProduto.getValor());
         System.out.println(meuProduto.getMarca());
         System.out.println(meuProduto.getTamanho());
-        //System.out.println(meuProduto.getItensInclusos().get(0).getNome()); // aqui ele imprime um de cada vez
-        //System.out.println(meuProduto.getItensInclusos().get(0).getQuantidade());
-        //System.out.println(meuProduto.getItensInclusos().get(1).getNome());
-        //System.out.println(meuProduto.getItensInclusos().get(1).getQuantidade());
-        //System.out.println(meuProduto.getItensInclusos().get(2).getNome());
-        //System.out.println(meuProduto.getItensInclusos().get(2).getQuantidade());
-
-        // Com o for eu imprimo todos os itens da lista
 
         System.out.println("Começando a apresentar os itens");
 
@@ -60,9 +49,6 @@ public class LojinhaApp {
         ProdutoInternacional meuProdutoInternacional = new ProdutoInternacional("JL", Tamanho.PEQUENO);
         meuProdutoInternacional.setTaxaImposto(0.6089);
         System.out.println(meuProdutoInternacional.getTaxaImposto());
-
-        //meuProdutoNacional.setValor(0);
-        //meuProdutoInternacional.setValor(-100);
 
      }
 
